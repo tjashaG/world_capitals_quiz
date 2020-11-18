@@ -3,7 +3,6 @@ import json
 import random
 import datetime
 import time
-#could add hints using the slice method
 #could have capitals by continents (easy version) and all countries (difficult)
 
 p2 = Path(".", "data", "capitals_scores.txt")
