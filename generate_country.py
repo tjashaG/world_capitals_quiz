@@ -13,7 +13,7 @@ lst = list(capital) #turn dictionary into a list of just countries (don't unders
 
 #function to generate random country
 def generate_country():
-    index = random.randint(1, len(lst) - 1)  # give index a random number
+    index = random.randint(0, len(lst) - 1)  # give index a random number
     random_country = lst[index]  # generate random country through random index
     right_answer = capital[random_country]
     answer = input(f"What's the capital of {random_country}? ")
